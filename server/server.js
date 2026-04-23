@@ -18,10 +18,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://messplateform.netlify.app",
-    ],
+    origin:"https://messplateform.netlify.app",
     credentials: true,
   })
 );
