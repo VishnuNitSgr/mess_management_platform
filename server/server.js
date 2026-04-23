@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://mess-management-navy.vercel.app",
+      "https://messplateform.netlify.app",
     ],
     credentials: true,
   })
